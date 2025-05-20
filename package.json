@@ -1,0 +1,15 @@
+{
+    "name": "knud2024-admin",
+    "version": "1.0.0",
+    "private": true,
+
+    "scripts": {
+        "client" : "yarn workspace @knud2024-admin/client",
+        "server" : "yarn workspace @knud2024-admin/server"
+    },
+
+    "workspaces": [
+        "admin-server",
+        "admin-client"
+    ]
+}
